@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Assignment.Dtos;
+using Microsoft.EntityFrameworkCore;
 
 namespace Assignment.Models
 {

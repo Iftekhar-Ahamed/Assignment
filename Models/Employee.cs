@@ -4,12 +4,12 @@ namespace Assignment.Models
 {
     public class Employee
     {
-        [Key] public int employeeId { get; set; }
-        public string employeeName { get; set;}
-        public string employeeCode { get; set;}
+        [Key] public int EmployeeId { get; set; }
+        public string EmployeeName { get; set;}
+        public string EmployeeCode { get; set;}
 
-        public int employeeSalary { get; set;}
+        public int EmployeeSalary { get; set;}
 
-        public int supervisorId { get; set;}
+        public int SupervisorId { get; set;}
     }
 }
